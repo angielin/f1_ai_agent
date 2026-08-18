@@ -7,3 +7,522 @@ hello from example.py
 hello from example.py
 hello from example.py
 hello from example.py
+hello from example.py
+hello from example.py
+[INFO __main__ 12:58:34] hello from example.py
+[INFO ddgs.ddgs 13:28:48] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://wt.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=F1%202026%20driver%20standings) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("wt.wikipedia.org.hsd1.ca.comcast.net."), query_type: A, query_class: IN }\')')
+[INFO primp 13:28:49] response: https://grokipedia.com/api/typeahead?query=F1+2026+driver+standings&limit=1 200
+[INFO ddgs.ddgs 13:28:51] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://wt.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=F1%202026%20driver%20lineup%20standings) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("wt.wikipedia.org.hsd1.ca.comcast.net."), query_type: A, query_class: IN }\')')
+[INFO primp 13:28:51] response: https://grokipedia.com/api/typeahead?query=F1+2026+driver+lineup+standings&limit=1 200
+[INFO primp 13:28:51] response: https://search.yahoo.com/search;_ylt=CEHPqIBZhdy7d7ZeHlnCQ1k3;_ylu=s-r93KxyUkNWT_kwweBg1WE5pkiOZ7520QSnNbjzWXjxXc0?p=F1+2026+driver+lineup+standings&btf=y 200
+[INFO ddgs.ddgs 13:28:53] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://wt.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=F1%202026%20driver%20standings%20points) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("wt.wikipedia.org.hsd1.ca.comcast.net."), query_type: A, query_class: IN }\')')
+[INFO primp 13:28:53] response: https://grokipedia.com/api/typeahead?query=F1+2026+driver+standings+points&limit=1 200
+[INFO primp 13:28:53] response: https://www.startpage.com/ 200
+[INFO primp 13:28:54] response: https://www.startpage.com/sp/search 200
+[INFO primp 13:28:54] response: https://search.brave.com/search?q=F1+2026+driver+standings+points&source=web&tf=py 200
+[INFO ddgs.ddgs 13:28:56] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://wt.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=current%20F1%20driver%20standings%202025%202026) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("wt.wikipedia.org.hsd1.ca.comcast.net."), query_type: A, query_class: IN }\')')
+[INFO primp 13:28:56] response: https://grokipedia.com/api/typeahead?query=current+F1+driver+standings+2025+2026&limit=1 200
+[INFO primp 13:28:56] response: https://www.mojeek.com/search?q=current+F1+driver+standings+2025+2026 200
+[INFO primp 13:28:57] response: https://www.startpage.com/ 200
+[INFO primp 13:28:57] response: https://www.startpage.com/sp/search 200
+[INFO ddgs.ddgs 13:29:14] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://wt.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=F1%20schedule%20race%20calendar%202026) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("wt.wikipedia.org.hsd1.ca.comcast.net."), query_type: A, query_class: IN }\')')
+[INFO primp 13:29:15] response: https://grokipedia.com/api/typeahead?query=F1+schedule+race+calendar+2026&limit=1 200
+[INFO primp 13:29:15] response: https://search.brave.com/search?q=F1+schedule+race+calendar+2026&source=web&tf=py 200
+[INFO ddgs.ddgs 13:29:17] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://wt.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=F1%202026%20drivers%20championship%20standings%20table%20points) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("wt.wikipedia.org.hsd1.ca.comcast.net."), query_type: A, query_class: IN }\')')
+[INFO primp 13:29:17] response: https://grokipedia.com/api/typeahead?query=F1+2026+drivers+championship+standings+table+points&limit=1 200
+[INFO primp 13:29:17] response: https://search.brave.com/search?q=F1+2026+drivers+championship+standings+table+points&source=web&tf=py 200
+[INFO ddgs.ddgs 13:29:19] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://wt.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=2026%20Formula%201%20drivers%20championship%20standings%20Antonelli%20Hamilton%20Russell) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("wt.wikipedia.org.hsd1.ca.comcast.net."), query_type: A, query_class: IN }\')')
+[INFO primp 13:29:19] response: https://grokipedia.com/api/typeahead?query=2026+Formula+1+drivers+championship+standings+Antonelli+Hamilton+Russell&limit=1 200
+[INFO ddgs.ddgs 13:29:22] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://wt.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=2026%20F1%20driver%20standings%20table%20points%20Kimi%20Antonelli%20Lewis%20Hamilton) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("wt.wikipedia.org.hsd1.ca.comcast.net."), query_type: A, query_class: IN }\')')
+[INFO primp 13:29:22] response: https://grokipedia.com/api/typeahead?query=2026+F1+driver+standings+table+points+Kimi+Antonelli+Lewis+Hamilton&limit=1 200
+[INFO primp 13:29:22] response: https://search.yahoo.com/search;_ylt=nDWVpuxmdFfWcIWiQvXWWl4w;_ylu=ll8nZtrlBgn5s_CbRxDYE1jBEOwlrTAuFiCZqvOXTp4xq44?p=2026+F1+driver+standings+table+points+Kimi+Antonelli+Lewis+Hamilton&btf=y 200
+[INFO ddgs.ddgs 13:30:00] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://wt.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=2026%20F1%20driver%20standings%20Antonelli%20Hamilton%20Russell%20Leclerc%20Norris%20Verstappen) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("wt.wikipedia.org.hsd1.ca.comcast.net."), query_type: A, query_class: IN }\')')
+[INFO primp 13:30:00] response: https://grokipedia.com/api/typeahead?query=2026+F1+driver+standings+Antonelli+Hamilton+Russell+Leclerc+Norris+Verstappen&limit=1 200
+[INFO primp 13:30:01] response: https://www.mojeek.com/search?q=2026+F1+driver+standings+Antonelli+Hamilton+Russell+Leclerc+Norris+Verstappen 200
+[INFO primp 13:30:01] response: https://www.startpage.com/ 200
+[INFO primp 13:30:01] response: https://www.startpage.com/sp/search 200
+[INFO ddgs.ddgs 13:31:06] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://wt.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=F1%20driver%20contract%20expiration%20dates%202025%202026%202027) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("wt.wikipedia.org.hsd1.ca.comcast.net."), query_type: A, query_class: IN }\')')
+[INFO primp 13:31:06] response: https://grokipedia.com/api/typeahead?query=F1+driver+contract+expiration+dates+2025+2026+2027&limit=1 200
+[INFO primp 13:31:06] response: https://www.mojeek.com/search?q=F1+driver+contract+expiration+dates+2025+2026+2027 200
+[INFO primp 13:31:07] response: https://www.startpage.com/ 200
+[INFO primp 13:31:07] response: https://www.startpage.com/sp/search 200
+[INFO primp 13:31:07] response: https://search.yahoo.com/search;_ylt=JV6iUvvclt5xCgp9UhccXusF;_ylu=9P7p_6QZHHRBmpWqLdLDocpWtBGJEBSVU-hLkIZPkfgpgP4?p=F1+driver+contract+expiration+dates+2025+2026+2027&btf=y 200
+[INFO primp 13:31:09] response: https://search.brave.com/search?q=F1+driver+contract+expiration+dates+2025+2026+2027&source=web&tf=py 200
+[INFO ddgs.ddgs 13:31:11] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://wt.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=F1%20driver%20contracts%20expiring%202026%20grid%20contracts%20list) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("wt.wikipedia.org.hsd1.ca.comcast.net."), query_type: A, query_class: IN }\')')
+[INFO primp 13:31:11] response: https://grokipedia.com/api/typeahead?query=F1+driver+contracts+expiring+2026+grid+contracts+list&limit=1 200
+[INFO primp 13:31:11] response: https://search.yahoo.com/search;_ylt=SOqTmPe0BybhpESV95enVUjo;_ylu=-BO4esLijIPcgyrWur8-4J5HeMDxSeuxE9gUt-bwEX4KMhw?p=F1+driver+contracts+expiring+2026+grid+contracts+list&btf=y 200
+[INFO ddgs.ddgs 13:35:50] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://wt.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=2023%20Monaco%20Grand%20Prix%20winner) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("wt.wikipedia.org.hsd1.ca.comcast.net."), query_type: A, query_class: IN }\')')
+[INFO primp 13:35:50] response: https://grokipedia.com/api/typeahead?query=2023+Monaco+Grand+Prix+winner&limit=1 200
+[INFO primp 13:35:51] response: https://search.yahoo.com/search;_ylt=qyXI8NWyDYoElv4o_Tra6Y7-;_ylu=Z3SjL8ewqybxeodBuAfMbJKyC2NFyyIgOR15m1g8yoNTlJo?p=2023+Monaco+Grand+Prix+winner&btf=y 200
+[INFO primp 13:35:52] response: https://search.brave.com/search?q=2023+Monaco+Grand+Prix+winner&source=web&tf=py 200
+[INFO ddgs.ddgs 13:36:30] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://wt.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=F1%20drivers%20contracts%20ending%202026) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("wt.wikipedia.org.hsd1.ca.comcast.net."), query_type: A, query_class: IN }\')')
+[INFO primp 13:36:31] response: https://grokipedia.com/api/typeahead?query=F1+drivers+contracts+ending+2026&limit=1 200
+[INFO primp 13:36:31] response: https://www.mojeek.com/search?q=F1+drivers+contracts+ending+2026 200
+[INFO primp 13:36:31] response: https://search.yahoo.com/search;_ylt=GtHMAwfCKL0pI34Em9R6zKI5;_ylu=sjTF-kQMuMmO-0b0oqkAaAnM3f04e1piS1D96v7jj6jEdYU?p=F1+drivers+contracts+ending+2026&btf=y 200
+[INFO ddgs.ddgs 13:36:33] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://wt.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=F1%20driver%20contracts%20expiring%202026%20grid%20status) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("wt.wikipedia.org.hsd1.ca.comcast.net."), query_type: A, query_class: IN }\')')
+[INFO primp 13:36:33] response: https://grokipedia.com/api/typeahead?query=F1+driver+contracts+expiring+2026+grid+status&limit=1 200
+[INFO primp 13:36:33] response: https://search.yahoo.com/search;_ylt=3Gk3Nvxm5jByhpp4vFoLst8E;_ylu=HuIknuw2sUYwekdO8dMQTmJNybd10LCBG02gJ1TcMPdWZXk?p=F1+driver+contracts+expiring+2026+grid+status&btf=y 200
+[INFO ddgs.ddgs 13:36:36] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://wt.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=F1%20driver%20contracts%20list%202026%20expiry) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("wt.wikipedia.org.hsd1.ca.comcast.net."), query_type: A, query_class: IN }\')')
+[INFO primp 13:36:36] response: https://grokipedia.com/api/typeahead?query=F1+driver+contracts+list+2026+expiry&limit=1 200
+[INFO ddgs.ddgs 13:37:41] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://wt.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Carlos%20Sainz%20teammate%20F1) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("wt.wikipedia.org.hsd1.ca.comcast.net."), query_type: A, query_class: IN }\')')
+[INFO primp 13:37:41] response: https://grokipedia.com/api/typeahead?query=Carlos+Sainz+teammate+F1&limit=1 200
+[INFO ddgs.ddgs 13:37:43] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://wt.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Williams%20F1%20drivers%20Alex%20Albon%20Carlos%20Sainz) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("wt.wikipedia.org.hsd1.ca.comcast.net."), query_type: A, query_class: IN }\')')
+[INFO primp 13:37:43] response: https://grokipedia.com/api/typeahead?query=Williams+F1+drivers+Alex+Albon+Carlos+Sainz&limit=1 200
+[INFO primp 13:37:43] response: https://search.brave.com/search?q=Williams+F1+drivers+Alex+Albon+Carlos+Sainz&source=web&tf=py 200
+[INFO ddgs.ddgs 13:38:52] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://wt.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=fastest%20F1%20driver%20pace%202026) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("wt.wikipedia.org.hsd1.ca.comcast.net."), query_type: A, query_class: IN }\')')
+[INFO primp 13:38:52] response: https://grokipedia.com/api/typeahead?query=fastest+F1+driver+pace+2026&limit=1 200
+[INFO primp 13:38:52] response: https://www.mojeek.com/search?q=fastest+F1+driver+pace+2026 200
+[INFO primp 13:38:53] response: https://www.startpage.com/ 200
+[INFO primp 13:38:53] response: https://www.startpage.com/sp/search 200
+[INFO ddgs.ddgs 13:40:19] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://wt.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=F1%202026%20driver%20market%20silly%20season%20predictions) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("wt.wikipedia.org.hsd1.ca.comcast.net."), query_type: A, query_class: IN }\')')
+[INFO primp 13:40:19] response: https://search.brave.com/search?q=F1+2026+driver+market+silly+season+predictions&source=web&tf=py 429
+[INFO primp 13:40:19] response: https://grokipedia.com/api/typeahead?query=F1+2026+driver+market+silly+season+predictions&limit=1 200
+[INFO primp 13:40:20] response: https://www.startpage.com/ 200
+[INFO primp 13:40:20] response: https://www.startpage.com/sp/search 200
+[INFO primp 13:40:20] response: https://search.yahoo.com/search;_ylt=lgdNJRVZGDaVr_z_SnmrSe8M;_ylu=nOw0uXOfql9BTAWRyJlXAagsFDYVqwDBPPXInRF_9oB3HcA?p=F1+2026+driver+market+silly+season+predictions&btf=y 200
+[DEBUG src.agents.agents 13:45:56] User asked: Who won the 2023 Monaco Grand Prix?
+[DEBUG httpcore.connection 13:45:56] connect_tcp.started host='generativelanguage.googleapis.com' port=443 local_address=None timeout=None socket_options=None
+[DEBUG httpcore.connection 13:45:57] connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x105bf6550>
+[DEBUG httpcore.connection 13:45:57] start_tls.started ssl_context=<ssl.SSLContext object at 0x10581d250> server_hostname='generativelanguage.googleapis.com' timeout=None
+[DEBUG httpcore.connection 13:45:57] start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x105a764d0>
+[DEBUG httpcore.http11 13:45:57] send_request_headers.started request=<Request [b'POST']>
+[DEBUG httpcore.http11 13:45:57] send_request_headers.complete
+[DEBUG httpcore.http11 13:45:57] send_request_body.started request=<Request [b'POST']>
+[DEBUG httpcore.http11 13:45:57] send_request_body.complete
+[DEBUG httpcore.http11 13:45:57] receive_response_headers.started request=<Request [b'POST']>
+[DEBUG httpcore.http11 13:46:43] receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'X-Gemini-Service-Tier', b'standard'), (b'Content-Type', b'application/json; charset=UTF-8'), (b'Vary', b'Origin'), (b'Vary', b'X-Origin'), (b'Vary', b'Referer'), (b'Content-Encoding', b'gzip'), (b'Date', b'Tue, 18 Aug 2026 20:46:43 GMT'), (b'Server', b'scaffolding on HTTPServer2'), (b'X-XSS-Protection', b'0'), (b'X-Frame-Options', b'SAMEORIGIN'), (b'X-Content-Type-Options', b'nosniff'), (b'Server-Timing', b'gfet4t7; dur=46421'), (b'Alt-Svc', b'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000'), (b'Transfer-Encoding', b'chunked')])
+[DEBUG httpcore.http11 13:46:43] receive_response_body.started request=<Request [b'POST']>
+[DEBUG httpcore.http11 13:46:43] receive_response_body.complete
+[DEBUG httpcore.http11 13:46:43] response_closed.started
+[DEBUG httpcore.http11 13:46:43] response_closed.complete
+[DEBUG rustls.webpki.anchors 13:46:43] add_parsable_certificates processed 153 valid and 0 invalid certs
+[DEBUG reqwest.connect 13:46:43] starting new connection 'Some("grokipedia.com")'
+[DEBUG reqwest.connect 13:46:43] starting new connection 'Some("wt.wikipedia.org")'
+[DEBUG hickory_net.xfer.dns_handle 13:46:43] querying: grokipedia.com. A
+[DEBUG hickory_net.xfer.dns_handle 13:46:43] querying: wt.wikipedia.org. A
+[DEBUG hickory_resolver.name_server_pool 13:46:43] sending request: [Query { name: Name("grokipedia.com."), query_type: A, query_class: IN }]
+[DEBUG hickory_resolver.name_server_pool 13:46:43] sending request: [Query { name: Name("wt.wikipedia.org."), query_type: A, query_class: IN }]
+[DEBUG hickory_resolver.name_server_pool 13:46:43] creating new shared lookup query=grokipedia.com. IN A
+[DEBUG hickory_resolver.name_server_pool 13:46:43] creating new shared lookup query=wt.wikipedia.org. IN A
+[DEBUG hickory_resolver.name_server_pool 13:46:43] setting retry_interval retry_interval=3µs ip=2001:558:feed::1
+[DEBUG hickory_resolver.name_server_pool 13:46:43] setting retry_interval retry_interval=1µs ip=2601:645:8001:1a0:aa70:5dff:fe01:55a
+[DEBUG hickory_resolver.name_server_pool 13:46:43] setting retry_interval retry_interval=10µs ip=2601:645:8001:1a0:aa70:5dff:fe01:55a
+[DEBUG hickory_resolver.name_server_pool 13:46:43] setting retry_interval retry_interval=1µs ip=75.75.75.75
+[DEBUG hickory_resolver.name_server 13:46:43] connecting config=NameServerConfig { ip: 2001:558:feed::1, trust_negative_responses: true, connections: [ConnectionConfig { port: 53, protocol: Udp, bind_addr: None }, ConnectionConfig { port: 53, protocol: Tcp, bind_addr: None }] }
+[DEBUG hickory_resolver.name_server 13:46:43] connecting config=NameServerConfig { ip: 2601:645:8001:1a0:aa70:5dff:fe01:55a, trust_negative_responses: true, connections: [ConnectionConfig { port: 53, protocol: Udp, bind_addr: None }, ConnectionConfig { port: 53, protocol: Tcp, bind_addr: None }] }
+[DEBUG hickory_net.xfer 13:46:43] enqueueing message:QUERY:[Query { name: Name("wt.wikipedia.org."), query_type: A, query_class: IN }]
+[DEBUG hickory_net.xfer 13:46:43] enqueueing message:QUERY:[Query { name: Name("grokipedia.com."), query_type: A, query_class: IN }]
+[DEBUG hickory_resolver.name_server 13:46:43] connecting config=NameServerConfig { ip: 2601:645:8001:1a0:aa70:5dff:fe01:55a, trust_negative_responses: true, connections: [ConnectionConfig { port: 53, protocol: Udp, bind_addr: None }, ConnectionConfig { port: 53, protocol: Tcp, bind_addr: None }] }
+[DEBUG hickory_resolver.name_server 13:46:43] connecting config=NameServerConfig { ip: 75.75.75.75, trust_negative_responses: true, connections: [ConnectionConfig { port: 53, protocol: Udp, bind_addr: None }, ConnectionConfig { port: 53, protocol: Tcp, bind_addr: None }] }
+[DEBUG hickory_net.xfer 13:46:43] enqueueing message:QUERY:[Query { name: Name("wt.wikipedia.org."), query_type: A, query_class: IN }]
+[DEBUG hickory_net.xfer 13:46:43] enqueueing message:QUERY:[Query { name: Name("grokipedia.com."), query_type: A, query_class: IN }]
+[DEBUG hickory_net.xfer.dns_handle 13:46:43] querying: wt.wikipedia.org. AAAA
+[DEBUG hickory_net.xfer.dns_handle 13:46:43] querying: grokipedia.com. AAAA
+[DEBUG hickory_resolver.name_server_pool 13:46:43] sending request: [Query { name: Name("wt.wikipedia.org."), query_type: AAAA, query_class: IN }]
+[DEBUG hickory_resolver.name_server_pool 13:46:43] sending request: [Query { name: Name("grokipedia.com."), query_type: AAAA, query_class: IN }]
+[DEBUG hickory_resolver.name_server_pool 13:46:43] creating new shared lookup query=wt.wikipedia.org. IN AAAA
+[DEBUG hickory_resolver.name_server_pool 13:46:43] creating new shared lookup query=grokipedia.com. IN AAAA
+[DEBUG hickory_resolver.name_server_pool 13:46:43] setting retry_interval retry_interval=3µs ip=2001:558:feed::1
+[DEBUG hickory_resolver.name_server_pool 13:46:43] setting retry_interval retry_interval=1µs ip=2601:645:8001:1a0:aa70:5dff:fe01:55a
+[DEBUG hickory_resolver.name_server_pool 13:46:43] setting retry_interval retry_interval=10µs ip=2601:645:8001:1a0:aa70:5dff:fe01:55a
+[DEBUG hickory_resolver.name_server_pool 13:46:43] setting retry_interval retry_interval=1µs ip=75.75.75.75
+[DEBUG hickory_net.xfer 13:46:43] enqueueing message:QUERY:[Query { name: Name("wt.wikipedia.org."), query_type: AAAA, query_class: IN }]
+[DEBUG hickory_net.xfer 13:46:43] enqueueing message:QUERY:[Query { name: Name("grokipedia.com."), query_type: AAAA, query_class: IN }]
+[DEBUG hickory_net.xfer 13:46:43] enqueueing message:QUERY:[Query { name: Name("wt.wikipedia.org."), query_type: AAAA, query_class: IN }]
+[DEBUG hickory_net.xfer 13:46:43] enqueueing message:QUERY:[Query { name: Name("grokipedia.com."), query_type: AAAA, query_class: IN }]
+[DEBUG hickory_net.udp.udp_client_stream 13:46:43] final message final_message=; header 17172:QUERY:RD:NoError:QUERY
+; edns version: 0 dnssec_ok: false z_flags: 0 max_payload: 1232 opts: 0
+; query
+;; grokipedia.com. IN A
+
+[DEBUG hickory_net.udp.udp_client_stream 13:46:43] final message final_message=; header 43201:QUERY:RD:NoError:QUERY
+; edns version: 0 dnssec_ok: false z_flags: 0 max_payload: 1232 opts: 0
+; query
+;; wt.wikipedia.org. IN A
+
+[DEBUG hickory_net.udp.udp_stream 13:46:43] created socket successfully
+[DEBUG hickory_net.udp.udp_stream 13:46:43] created socket successfully
+[DEBUG hickory_net.udp.udp_client_stream 13:46:43] final message final_message=; header 17172:QUERY:RD:NoError:QUERY
+; edns version: 0 dnssec_ok: false z_flags: 0 max_payload: 1232 opts: 0
+; query
+;; grokipedia.com. IN A
+
+[DEBUG hickory_net.udp.udp_client_stream 13:46:43] final message final_message=; header 43201:QUERY:RD:NoError:QUERY
+; edns version: 0 dnssec_ok: false z_flags: 0 max_payload: 1232 opts: 0
+; query
+;; wt.wikipedia.org. IN A
+
+[DEBUG hickory_net.udp.udp_stream 13:46:43] created socket successfully
+[DEBUG hickory_net.udp.udp_stream 13:46:43] created socket successfully
+[DEBUG hickory_net.udp.udp_client_stream 13:46:43] final message final_message=; header 60880:QUERY:RD:NoError:QUERY
+; edns version: 0 dnssec_ok: false z_flags: 0 max_payload: 1232 opts: 0
+; query
+;; grokipedia.com. IN AAAA
+
+[DEBUG hickory_net.udp.udp_client_stream 13:46:43] final message final_message=; header 23957:QUERY:RD:NoError:QUERY
+; edns version: 0 dnssec_ok: false z_flags: 0 max_payload: 1232 opts: 0
+; query
+;; wt.wikipedia.org. IN AAAA
+
+[DEBUG hickory_net.udp.udp_stream 13:46:43] created socket successfully
+[DEBUG hickory_net.udp.udp_stream 13:46:43] created socket successfully
+[DEBUG hickory_net.udp.udp_client_stream 13:46:43] final message final_message=; header 60880:QUERY:RD:NoError:QUERY
+; edns version: 0 dnssec_ok: false z_flags: 0 max_payload: 1232 opts: 0
+; query
+;; grokipedia.com. IN AAAA
+
+[DEBUG hickory_net.udp.udp_client_stream 13:46:43] final message final_message=; header 23957:QUERY:RD:NoError:QUERY
+; edns version: 0 dnssec_ok: false z_flags: 0 max_payload: 1232 opts: 0
+; query
+;; wt.wikipedia.org. IN AAAA
+
+[DEBUG hickory_net.udp.udp_stream 13:46:43] created socket successfully
+[DEBUG hickory_net.udp.udp_stream 13:46:43] created socket successfully
+[DEBUG hickory_net.udp.udp_client_stream 13:46:43] received message id: 43201
+[DEBUG hickory_net.error 13:46:43] response: ; header 43201:RESPONSE:RD,RA:NXDomain:QUERY
+; edns version: 0 dnssec_ok: false z_flags: 0 max_payload: 512 opts: 0
+; query
+;; wt.wikipedia.org. IN A
+; answers 0
+; authorities 1
+wikipedia.org. 3600 IN SOA ns0.wikimedia.org. hostmaster.wikimedia.org. 2026060420 43200 7200 1209600 3600
+; additionals 0
+
+[DEBUG hickory_net.udp.udp_client_stream 13:46:43] received message id: 23957
+[DEBUG hickory_net.error 13:46:43] response: ; header 23957:RESPONSE:RD,RA:NXDomain:QUERY
+; edns version: 0 dnssec_ok: false z_flags: 0 max_payload: 512 opts: 0
+; query
+;; wt.wikipedia.org. IN AAAA
+; answers 0
+; authorities 1
+wikipedia.org. 2533 IN SOA ns0.wikimedia.org. hostmaster.wikimedia.org. 2026060420 43200 7200 1209600 3600
+; additionals 0
+
+[DEBUG hickory_resolver.lookup_ip 13:46:43] both of ipv4 or ipv6 lookup failed e1: DNS error: no records found for Query { name: Name("wt.wikipedia.org."), query_type: A, query_class: IN }, e2: DNS error: no records found for Query { name: Name("wt.wikipedia.org."), query_type: AAAA, query_class: IN }
+[DEBUG hickory_net.xfer.dns_handle 13:46:43] querying: wt.wikipedia.org.hsd1.ca.comcast.net. A
+[DEBUG hickory_resolver.name_server_pool 13:46:43] sending request: [Query { name: Name("wt.wikipedia.org.hsd1.ca.comcast.net."), query_type: A, query_class: IN }]
+[DEBUG hickory_resolver.name_server_pool 13:46:43] creating new shared lookup query=wt.wikipedia.org.hsd1.ca.comcast.net. IN A
+[DEBUG hickory_resolver.name_server_pool 13:46:43] setting retry_interval retry_interval=10µs ip=2601:645:8001:1a0:aa70:5dff:fe01:55a
+[DEBUG hickory_resolver.name_server_pool 13:46:43] setting retry_interval retry_interval=14µs ip=75.75.76.76
+[DEBUG hickory_net.xfer 13:46:43] enqueueing message:QUERY:[Query { name: Name("wt.wikipedia.org.hsd1.ca.comcast.net."), query_type: A, query_class: IN }]
+[DEBUG hickory_resolver.name_server 13:46:43] connecting config=NameServerConfig { ip: 75.75.76.76, trust_negative_responses: true, connections: [ConnectionConfig { port: 53, protocol: Udp, bind_addr: None }, ConnectionConfig { port: 53, protocol: Tcp, bind_addr: None }] }
+[DEBUG hickory_net.xfer 13:46:43] enqueueing message:QUERY:[Query { name: Name("wt.wikipedia.org.hsd1.ca.comcast.net."), query_type: A, query_class: IN }]
+[DEBUG hickory_net.xfer.dns_handle 13:46:43] querying: wt.wikipedia.org.hsd1.ca.comcast.net. AAAA
+[DEBUG hickory_resolver.name_server_pool 13:46:43] sending request: [Query { name: Name("wt.wikipedia.org.hsd1.ca.comcast.net."), query_type: AAAA, query_class: IN }]
+[DEBUG hickory_resolver.name_server_pool 13:46:43] creating new shared lookup query=wt.wikipedia.org.hsd1.ca.comcast.net. IN AAAA
+[DEBUG hickory_resolver.name_server_pool 13:46:43] setting retry_interval retry_interval=10µs ip=2601:645:8001:1a0:aa70:5dff:fe01:55a
+[DEBUG hickory_resolver.name_server_pool 13:46:43] setting retry_interval retry_interval=14µs ip=75.75.76.76
+[DEBUG hickory_net.xfer 13:46:43] enqueueing message:QUERY:[Query { name: Name("wt.wikipedia.org.hsd1.ca.comcast.net."), query_type: AAAA, query_class: IN }]
+[DEBUG hickory_net.xfer 13:46:43] enqueueing message:QUERY:[Query { name: Name("wt.wikipedia.org.hsd1.ca.comcast.net."), query_type: AAAA, query_class: IN }]
+[DEBUG hickory_net.udp.udp_client_stream 13:46:43] final message final_message=; header 41522:QUERY:RD:NoError:QUERY
+; edns version: 0 dnssec_ok: false z_flags: 0 max_payload: 1232 opts: 0
+; query
+;; wt.wikipedia.org.hsd1.ca.comcast.net. IN A
+
+[DEBUG hickory_net.udp.udp_client_stream 13:46:43] received message id: 17172
+[DEBUG hickory_net.udp.udp_stream 13:46:43] created socket successfully
+[DEBUG hickory_net.error 13:46:43] response: ; header 17172:RESPONSE:RD,RA:NoError:QUERY
+; edns version: 0 dnssec_ok: false z_flags: 0 max_payload: 512 opts: 0
+; query
+;; grokipedia.com. IN A
+; answers 2
+grokipedia.com. 206 IN A 104.18.19.2
+grokipedia.com. 206 IN A 104.18.18.2
+; authorities 0
+; additionals 0
+
+[DEBUG hickory_net.udp.udp_client_stream 13:46:43] final message final_message=; header 41522:QUERY:RD:NoError:QUERY
+; edns version: 0 dnssec_ok: false z_flags: 0 max_payload: 1232 opts: 0
+; query
+;; wt.wikipedia.org.hsd1.ca.comcast.net. IN A
+
+[DEBUG hickory_resolver.name_server_pool 13:46:43] recording cancelled parallel server ip=2601:645:8001:1a0:aa70:5dff:fe01:55a winner_rtt=34.622333ms
+[DEBUG hickory_net.udp.udp_stream 13:46:43] created socket successfully
+[DEBUG hickory_net.error 13:46:43] response: ; header 17172:RESPONSE:RD,RA:NoError:QUERY
+; edns version: 0 dnssec_ok: false z_flags: 0 max_payload: 512 opts: 0
+; query
+;; grokipedia.com. IN A
+; answers 2
+grokipedia.com. 206 IN A 104.18.19.2
+grokipedia.com. 206 IN A 104.18.18.2
+; authorities 0
+; additionals 0
+
+[DEBUG hickory_net.udp.udp_client_stream 13:46:43] final message final_message=; header 14663:QUERY:RD:NoError:QUERY
+; edns version: 0 dnssec_ok: false z_flags: 0 max_payload: 1232 opts: 0
+; query
+;; wt.wikipedia.org.hsd1.ca.comcast.net. IN AAAA
+
+[DEBUG hickory_net.udp.udp_stream 13:46:43] created socket successfully
+[DEBUG hickory_net.udp.udp_client_stream 13:46:43] final message final_message=; header 14663:QUERY:RD:NoError:QUERY
+; edns version: 0 dnssec_ok: false z_flags: 0 max_payload: 1232 opts: 0
+; query
+;; wt.wikipedia.org.hsd1.ca.comcast.net. IN AAAA
+
+[DEBUG hickory_net.udp.udp_stream 13:46:43] created socket successfully
+[DEBUG hickory_net.udp.udp_client_stream 13:46:43] received message id: 60880
+[DEBUG hickory_net.error 13:46:43] response: ; header 60880:RESPONSE:RD,RA:NoError:QUERY
+; edns version: 0 dnssec_ok: false z_flags: 0 max_payload: 512 opts: 0
+; query
+;; grokipedia.com. IN AAAA
+; answers 2
+grokipedia.com. 287 IN AAAA 2606:4700::6812:1302
+grokipedia.com. 287 IN AAAA 2606:4700::6812:1202
+; authorities 0
+; additionals 0
+
+[DEBUG hickory_resolver.name_server_pool 13:46:43] recording cancelled parallel server ip=75.75.75.75 winner_rtt=35.394125ms
+[DEBUG hickory_net.error 13:46:43] response: ; header 60880:RESPONSE:RD,RA:NoError:QUERY
+; edns version: 0 dnssec_ok: false z_flags: 0 max_payload: 512 opts: 0
+; query
+;; grokipedia.com. IN AAAA
+; answers 2
+grokipedia.com. 287 IN AAAA 2606:4700::6812:1302
+grokipedia.com. 287 IN AAAA 2606:4700::6812:1202
+; authorities 0
+; additionals 0
+
+[DEBUG hyper_util.client.legacy.connect.http 13:46:43] connecting to 104.18.19.2:443
+[DEBUG hyper_util.client.legacy.connect.http 13:46:43] connected to 104.18.19.2:443
+[DEBUG rustls.client.hs 13:46:43] No cached session for DnsName("grokipedia.com")
+[DEBUG rustls.client.hs 13:46:43] Not resuming any session
+[DEBUG hickory_net.udp.udp_client_stream 13:46:43] received message id: 41522
+[DEBUG hickory_net.error 13:46:43] response: ; header 41522:RESPONSE:RD,RA:NXDomain:QUERY
+; edns version: 0 dnssec_ok: false z_flags: 0 max_payload: 512 opts: 0
+; query
+;; wt.wikipedia.org.hsd1.ca.comcast.net. IN A
+; answers 0
+; authorities 1
+hsd1.ca.comcast.net. 900 IN SOA dns101.comcast.net. dnsadmin.comcast.net. 34711274 7200 3600 604800 900
+; additionals 0
+
+[DEBUG rustls.client.hs 13:46:43] Browser emulation: Some(BrowserEmulator { browser_type: Firefox, version: BrowserVersion { major: 140, minor: 0, patch: 0 }, extension_order_seed: Some(39612), cipher_suites: Some([TLS13_AES_128_GCM_SHA256, TLS13_CHACHA20_POLY1305_SHA256, TLS13_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256, TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, CipherSuite(0x9c), CipherSuite(0x9d), CipherSuite(0x2f), CipherSuite(0x35)]), signature_algorithms: Some([ECDSA_NISTP256_SHA256, ECDSA_NISTP384_SHA384, ECDSA_NISTP521_SHA512, RSA_PSS_SHA256, RSA_PSS_SHA384, RSA_PSS_SHA512, RSA_PKCS1_SHA256, RSA_PKCS1_SHA384, RSA_PKCS1_SHA512, ECDSA_SHA1_Legacy, RSA_PKCS1_SHA1]), named_groups: Some([X25519MLKEM768, X25519, secp256r1, secp384r1, secp521r1, FFDHE2048, FFDHE3072]), os_type: None, include_status_request_v2: false })
+[DEBUG rustls.client.hs 13:46:43] Using extension_order_seed: 35057
+[DEBUG rustls.client.hs 13:46:43] Cipher suites count: 17
+[DEBUG rustls.client.hs 13:46:43]   [0] TLS13_AES_128_GCM_SHA256
+[DEBUG rustls.client.hs 13:46:43]   [1] TLS13_CHACHA20_POLY1305_SHA256
+[DEBUG rustls.client.hs 13:46:43]   [2] TLS13_AES_256_GCM_SHA384
+[DEBUG rustls.client.hs 13:46:43]   [3] TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256
+[DEBUG rustls.client.hs 13:46:43]   [4] TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+[DEBUG rustls.client.hs 13:46:43]   [5] TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256
+[DEBUG rustls.client.hs 13:46:43]   [6] TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256
+[DEBUG rustls.client.hs 13:46:43]   [7] TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384
+[DEBUG rustls.client.hs 13:46:43]   [8] TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+[DEBUG rustls.client.hs 13:46:43]   [9] TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA
+[DEBUG rustls.client.hs 13:46:43]   [10] TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA
+[DEBUG rustls.client.hs 13:46:43]   [11] TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA
+[DEBUG rustls.client.hs 13:46:43]   [12] TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA
+[DEBUG rustls.client.hs 13:46:43]   [13] CipherSuite(0x9c)
+[DEBUG rustls.client.hs 13:46:43]   [14] CipherSuite(0x9d)
+[DEBUG rustls.client.hs 13:46:43]   [15] CipherSuite(0x2f)
+[DEBUG rustls.client.hs 13:46:43]   [16] CipherSuite(0x35)
+[DEBUG rustls.client.hs 13:46:43] Final cipher suites for ClientHello: [TLS13_AES_128_GCM_SHA256, TLS13_CHACHA20_POLY1305_SHA256, TLS13_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256, TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, CipherSuite(0x9c), CipherSuite(0x9d), CipherSuite(0x2f), CipherSuite(0x35)]
+[DEBUG hickory_net.udp.udp_client_stream 13:46:43] received message id: 14663
+[DEBUG hickory_net.error 13:46:43] response: ; header 14663:RESPONSE:RD,RA:NXDomain:QUERY
+; edns version: 0 dnssec_ok: false z_flags: 0 max_payload: 512 opts: 0
+; query
+;; wt.wikipedia.org.hsd1.ca.comcast.net. IN AAAA
+; answers 0
+; authorities 1
+hsd1.ca.comcast.net. 900 IN SOA dns101.comcast.net. dnsadmin.comcast.net. 34711274 7200 3600 604800 900
+; additionals 0
+
+[DEBUG hickory_resolver.lookup_ip 13:46:43] both of ipv4 or ipv6 lookup failed e1: DNS error: no records found for Query { name: Name("wt.wikipedia.org.hsd1.ca.comcast.net."), query_type: A, query_class: IN }, e2: DNS error: no records found for Query { name: Name("wt.wikipedia.org.hsd1.ca.comcast.net."), query_type: AAAA, query_class: IN }
+[DEBUG reqwest.connect 13:46:43] starting new connection 'Some("search.yahoo.com")'
+[DEBUG hickory_net.xfer.dns_handle 13:46:43] querying: search.yahoo.com. A
+[DEBUG hickory_resolver.name_server_pool 13:46:43] sending request: [Query { name: Name("search.yahoo.com."), query_type: A, query_class: IN }]
+[DEBUG hickory_resolver.name_server_pool 13:46:43] creating new shared lookup query=search.yahoo.com. IN A
+[DEBUG hickory_resolver.name_server_pool 13:46:43] setting retry_interval retry_interval=10µs ip=2001:558:feed::2
+[DEBUG hickory_resolver.name_server_pool 13:46:43] setting retry_interval retry_interval=30µs ip=75.75.76.76
+[DEBUG hickory_resolver.name_server 13:46:43] connecting config=NameServerConfig { ip: 2001:558:feed::2, trust_negative_responses: true, connections: [ConnectionConfig { port: 53, protocol: Udp, bind_addr: None }, ConnectionConfig { port: 53, protocol: Tcp, bind_addr: None }] }
+[DEBUG hickory_net.xfer 13:46:43] enqueueing message:QUERY:[Query { name: Name("search.yahoo.com."), query_type: A, query_class: IN }]
+[DEBUG hickory_resolver.name_server 13:46:43] connecting config=NameServerConfig { ip: 75.75.76.76, trust_negative_responses: true, connections: [ConnectionConfig { port: 53, protocol: Udp, bind_addr: None }, ConnectionConfig { port: 53, protocol: Tcp, bind_addr: None }] }
+[DEBUG hickory_net.xfer 13:46:43] enqueueing message:QUERY:[Query { name: Name("search.yahoo.com."), query_type: A, query_class: IN }]
+[DEBUG hickory_net.xfer.dns_handle 13:46:43] querying: search.yahoo.com. AAAA
+[DEBUG hickory_resolver.name_server_pool 13:46:43] sending request: [Query { name: Name("search.yahoo.com."), query_type: AAAA, query_class: IN }]
+[DEBUG hickory_resolver.name_server_pool 13:46:43] creating new shared lookup query=search.yahoo.com. IN AAAA
+[DEBUG hickory_resolver.name_server_pool 13:46:43] setting retry_interval retry_interval=10µs ip=2001:558:feed::2
+[DEBUG hickory_resolver.name_server_pool 13:46:43] setting retry_interval retry_interval=30µs ip=75.75.76.76
+[DEBUG hickory_net.xfer 13:46:43] enqueueing message:QUERY:[Query { name: Name("search.yahoo.com."), query_type: AAAA, query_class: IN }]
+[DEBUG hickory_net.xfer 13:46:43] enqueueing message:QUERY:[Query { name: Name("search.yahoo.com."), query_type: AAAA, query_class: IN }]
+[DEBUG hickory_net.udp.udp_client_stream 13:46:43] final message final_message=; header 64320:QUERY:RD:NoError:QUERY
+; edns version: 0 dnssec_ok: false z_flags: 0 max_payload: 1232 opts: 0
+; query
+;; search.yahoo.com. IN A
+
+[DEBUG hickory_net.udp.udp_stream 13:46:43] created socket successfully
+[DEBUG hickory_net.udp.udp_client_stream 13:46:43] final message final_message=; header 64320:QUERY:RD:NoError:QUERY
+; edns version: 0 dnssec_ok: false z_flags: 0 max_payload: 1232 opts: 0
+; query
+;; search.yahoo.com. IN A
+
+[DEBUG hickory_net.udp.udp_stream 13:46:43] created socket successfully
+[DEBUG hickory_net.udp.udp_client_stream 13:46:43] final message final_message=; header 29160:QUERY:RD:NoError:QUERY
+; edns version: 0 dnssec_ok: false z_flags: 0 max_payload: 1232 opts: 0
+; query
+;; search.yahoo.com. IN AAAA
+
+[DEBUG hickory_net.udp.udp_stream 13:46:43] created socket successfully
+[DEBUG hickory_net.udp.udp_client_stream 13:46:43] final message final_message=; header 29160:QUERY:RD:NoError:QUERY
+; edns version: 0 dnssec_ok: false z_flags: 0 max_payload: 1232 opts: 0
+; query
+;; search.yahoo.com. IN AAAA
+
+[DEBUG hickory_net.udp.udp_stream 13:46:43] created socket successfully
+[DEBUG rustls.client.hs 13:46:43] Using ciphersuite TLS13_AES_128_GCM_SHA256
+[DEBUG rustls.client.tls13 13:46:43] Not resuming
+[DEBUG rustls.client.tls13 13:46:43] TLS1.3 encrypted extensions: ServerExtensions { server_name_ack: (), selected_protocol: SingleProtocolName(ProtocolName(6832)), encrypted_client_hello_ack: ServerEncryptedClientHello { retry_configs: [V18(EchConfigContents { key_config: HpkeKeyConfig { config_id: 43, kem_id: DHKEM_X25519_HKDF_SHA256, public_key: 8d43d25572d7cb3e8a9b0468bd778bd25434765595df25ad832f9622cdce2154, symmetric_cipher_suites: [HpkeSymmetricCipherSuite { kdf_id: HKDF_SHA256, aead_id: AES_128_GCM }] }, maximum_name_length: 0, public_name: DnsName("cloudflare-ech.com"), extensions: [] })] }, unknown_extensions: {}, .. }
+[DEBUG rustls.client.hs 13:46:43] ALPN protocol is Some(b"h2")
+[DEBUG h2.client 13:46:43] binding client connection
+[DEBUG h2.client 13:46:43] client connection bound
+[DEBUG h2.client 13:46:43] handshake2: settings header_table_size=Some(65536), enable_push=Some(false), initial_window_size=Some(131072), max_frame_size=Some(16384), max_header_list_size=Some(262144)
+[DEBUG h2.client 13:46:43] handshake2: sending initial settings frame
+[DEBUG h2.codec.framed_write 13:46:43] send frame=Settings { flags: (0x0), header_table_size: 65536, enable_push: 0, initial_window_size: 131072, max_frame_size: 16384 }
+[DEBUG h2.frame.settings 13:46:43] encoding SETTINGS; len=24, order=SettingsOrder { ids: [HeaderTableSize, EnablePush, InitialWindowSize, MaxFrameSize] }, header_table_size=Some(65536), enable_push=Some(0), initial_window_size=Some(131072), max_frame_size=Some(16384), max_header_list_size=Some(262144)
+[DEBUG h2.frame.settings 13:46:43] encoding setting; val=HeaderTableSize(65536)
+[DEBUG h2.frame.settings 13:46:43] encoding setting; val=EnablePush(0)
+[DEBUG h2.frame.settings 13:46:43] encoding setting; val=InitialWindowSize(131072)
+[DEBUG h2.frame.settings 13:46:43] encoding setting; val=MaxFrameSize(16384)
+[DEBUG h2.proto.connection 13:46:43] Connection; peer=Client
+[DEBUG h2.codec.framed_write 13:46:43] send frame=WindowUpdate { stream_id: StreamId(0), size_increment: 12517377 }
+[DEBUG hyper_util.client.legacy.pool 13:46:43] pooling idle connection for ("https", grokipedia.com)
+[DEBUG h2.codec.framed_write 13:46:43] send frame=Headers { stream_id: StreamId(3), flags: (0x25: END_HEADERS | END_STREAM | PRIORITY), stream_dep: StreamDependency { dependency_id: StreamId(0), weight: 41, is_exclusive: false } }
+[DEBUG h2.codec.framed_write 13:46:43] send frame=WindowUpdate { stream_id: StreamId(3), size_increment: 12451840 }
+[DEBUG h2.codec.framed_read 13:46:43] received frame=Settings { flags: (0x0), max_concurrent_streams: 100, initial_window_size: 65536, max_frame_size: 16777215 }
+[DEBUG h2.codec.framed_write 13:46:43] send frame=Settings { flags: (0x1: ACK) }
+[DEBUG h2.frame.settings 13:46:43] encoding SETTINGS; len=0, order=SettingsOrder { ids: [HeaderTableSize, EnablePush, MaxConcurrentStreams, InitialWindowSize, MaxFrameSize, MaxHeaderListSize, EnableConnectProtocol, NoRfc7540Priorities] }, header_table_size=None, enable_push=None, initial_window_size=None, max_frame_size=None, max_header_list_size=None
+[DEBUG h2.codec.framed_read 13:46:43] received frame=WindowUpdate { stream_id: StreamId(0), size_increment: 2147418112 }
+[DEBUG h2.codec.framed_read 13:46:43] received frame=Settings { flags: (0x1: ACK) }
+[DEBUG h2.proto.settings 13:46:43] received settings ACK; applying Settings { flags: (0x0), header_table_size: 65536, enable_push: 0, initial_window_size: 131072, max_frame_size: 16384 }
+[DEBUG hickory_net.udp.udp_client_stream 13:46:43] received message id: 64320
+[DEBUG hickory_net.error 13:46:43] response: ; header 64320:RESPONSE:RD,RA:NoError:QUERY
+; edns version: 0 dnssec_ok: false z_flags: 0 max_payload: 512 opts: 0
+; query
+;; search.yahoo.com. IN A
+; answers 3
+search.yahoo.com. 205 IN CNAME w6.search-aws-l7-prod.aws.yahoo.cloud.
+w6.search-aws-l7-prod.aws.yahoo.cloud. 88 IN CNAME ds-global3.l7.search.ystg1.b.yahoo.com.
+ds-global3.l7.search.ystg1.b.yahoo.com. 160 IN A 98.136.144.138
+; authorities 0
+; additionals 0
+
+[DEBUG hickory_resolver.name_server_pool 13:46:43] recording cancelled parallel server ip=75.75.76.76 winner_rtt=52.529667ms
+[DEBUG hickory_net.error 13:46:43] response: ; header 64320:RESPONSE:RD,RA:NoError:QUERY
+; edns version: 0 dnssec_ok: false z_flags: 0 max_payload: 512 opts: 0
+; query
+;; search.yahoo.com. IN A
+; answers 3
+search.yahoo.com. 205 IN CNAME w6.search-aws-l7-prod.aws.yahoo.cloud.
+w6.search-aws-l7-prod.aws.yahoo.cloud. 88 IN CNAME ds-global3.l7.search.ystg1.b.yahoo.com.
+ds-global3.l7.search.ystg1.b.yahoo.com. 160 IN A 98.136.144.138
+; authorities 0
+; additionals 0
+
+[DEBUG hickory_net.udp.udp_client_stream 13:46:43] received message id: 29160
+[DEBUG hickory_net.error 13:46:43] response: ; header 29160:RESPONSE:RD,RA:NoError:QUERY
+; edns version: 0 dnssec_ok: false z_flags: 0 max_payload: 512 opts: 0
+; query
+;; search.yahoo.com. IN AAAA
+; answers 3
+search.yahoo.com. 226 IN CNAME w6.search-aws-l7-prod.aws.yahoo.cloud.
+w6.search-aws-l7-prod.aws.yahoo.cloud. 226 IN CNAME ds-global3.l7.search.ystg1.b.yahoo.com.
+ds-global3.l7.search.ystg1.b.yahoo.com. 198 IN AAAA 2001:4998:24:604::3000
+; authorities 0
+; additionals 0
+
+[DEBUG hickory_resolver.name_server_pool 13:46:43] recording cancelled parallel server ip=75.75.76.76 winner_rtt=52.480416ms
+[DEBUG hickory_net.error 13:46:43] response: ; header 29160:RESPONSE:RD,RA:NoError:QUERY
+; edns version: 0 dnssec_ok: false z_flags: 0 max_payload: 512 opts: 0
+; query
+;; search.yahoo.com. IN AAAA
+; answers 3
+search.yahoo.com. 226 IN CNAME w6.search-aws-l7-prod.aws.yahoo.cloud.
+w6.search-aws-l7-prod.aws.yahoo.cloud. 226 IN CNAME ds-global3.l7.search.ystg1.b.yahoo.com.
+ds-global3.l7.search.ystg1.b.yahoo.com. 198 IN AAAA 2001:4998:24:604::3000
+; authorities 0
+; additionals 0
+
+[DEBUG hyper_util.client.legacy.connect.http 13:46:43] connecting to 98.136.144.138:443
+[DEBUG hyper_util.client.legacy.connect.http 13:46:44] connected to 98.136.144.138:443
+[DEBUG rustls.client.hs 13:46:44] No cached session for DnsName("search.yahoo.com")
+[DEBUG rustls.client.hs 13:46:44] Not resuming any session
+[DEBUG rustls.client.hs 13:46:44] Browser emulation: Some(BrowserEmulator { browser_type: Firefox, version: BrowserVersion { major: 140, minor: 0, patch: 0 }, extension_order_seed: Some(39612), cipher_suites: Some([TLS13_AES_128_GCM_SHA256, TLS13_CHACHA20_POLY1305_SHA256, TLS13_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256, TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, CipherSuite(0x9c), CipherSuite(0x9d), CipherSuite(0x2f), CipherSuite(0x35)]), signature_algorithms: Some([ECDSA_NISTP256_SHA256, ECDSA_NISTP384_SHA384, ECDSA_NISTP521_SHA512, RSA_PSS_SHA256, RSA_PSS_SHA384, RSA_PSS_SHA512, RSA_PKCS1_SHA256, RSA_PKCS1_SHA384, RSA_PKCS1_SHA512, ECDSA_SHA1_Legacy, RSA_PKCS1_SHA1]), named_groups: Some([X25519MLKEM768, X25519, secp256r1, secp384r1, secp521r1, FFDHE2048, FFDHE3072]), os_type: None, include_status_request_v2: false })
+[DEBUG rustls.client.hs 13:46:44] Using extension_order_seed: 21047
+[DEBUG rustls.client.hs 13:46:44] Cipher suites count: 17
+[DEBUG rustls.client.hs 13:46:44]   [0] TLS13_AES_128_GCM_SHA256
+[DEBUG rustls.client.hs 13:46:44]   [1] TLS13_CHACHA20_POLY1305_SHA256
+[DEBUG rustls.client.hs 13:46:44]   [2] TLS13_AES_256_GCM_SHA384
+[DEBUG rustls.client.hs 13:46:44]   [3] TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256
+[DEBUG rustls.client.hs 13:46:44]   [4] TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+[DEBUG rustls.client.hs 13:46:44]   [5] TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256
+[DEBUG rustls.client.hs 13:46:44]   [6] TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256
+[DEBUG rustls.client.hs 13:46:44]   [7] TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384
+[DEBUG rustls.client.hs 13:46:44]   [8] TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+[DEBUG rustls.client.hs 13:46:44]   [9] TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA
+[DEBUG rustls.client.hs 13:46:44]   [10] TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA
+[DEBUG rustls.client.hs 13:46:44]   [11] TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA
+[DEBUG rustls.client.hs 13:46:44]   [12] TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA
+[DEBUG rustls.client.hs 13:46:44]   [13] CipherSuite(0x9c)
+[DEBUG rustls.client.hs 13:46:44]   [14] CipherSuite(0x9d)
+[DEBUG rustls.client.hs 13:46:44]   [15] CipherSuite(0x2f)
+[DEBUG rustls.client.hs 13:46:44]   [16] CipherSuite(0x35)
+[DEBUG rustls.client.hs 13:46:44] Final cipher suites for ClientHello: [TLS13_AES_128_GCM_SHA256, TLS13_CHACHA20_POLY1305_SHA256, TLS13_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256, TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, CipherSuite(0x9c), CipherSuite(0x9d), CipherSuite(0x2f), CipherSuite(0x35)]
+[DEBUG rustls.client.hs 13:46:44] Using ciphersuite TLS13_AES_128_GCM_SHA256
+[DEBUG rustls.client.tls13 13:46:44] Not resuming
+[DEBUG rustls.client.tls13 13:46:44] TLS1.3 encrypted extensions: ServerExtensions { server_name_ack: (), selected_protocol: SingleProtocolName(ProtocolName(6832)), unknown_extensions: {}, .. }
+[DEBUG rustls.client.hs 13:46:44] ALPN protocol is Some(b"h2")
+[DEBUG h2.client 13:46:44] binding client connection
+[DEBUG h2.client 13:46:44] client connection bound
+[DEBUG h2.client 13:46:44] handshake2: settings header_table_size=Some(65536), enable_push=Some(false), initial_window_size=Some(131072), max_frame_size=Some(16384), max_header_list_size=Some(262144)
+[DEBUG h2.client 13:46:44] handshake2: sending initial settings frame
+[DEBUG h2.codec.framed_write 13:46:44] send frame=Settings { flags: (0x0), header_table_size: 65536, enable_push: 0, initial_window_size: 131072, max_frame_size: 16384 }
+[DEBUG h2.frame.settings 13:46:44] encoding SETTINGS; len=24, order=SettingsOrder { ids: [HeaderTableSize, EnablePush, InitialWindowSize, MaxFrameSize] }, header_table_size=Some(65536), enable_push=Some(0), initial_window_size=Some(131072), max_frame_size=Some(16384), max_header_list_size=Some(262144)
+[DEBUG h2.frame.settings 13:46:44] encoding setting; val=HeaderTableSize(65536)
+[DEBUG h2.frame.settings 13:46:44] encoding setting; val=EnablePush(0)
+[DEBUG h2.frame.settings 13:46:44] encoding setting; val=InitialWindowSize(131072)
+[DEBUG h2.frame.settings 13:46:44] encoding setting; val=MaxFrameSize(16384)
+[DEBUG h2.proto.connection 13:46:44] Connection; peer=Client
+[DEBUG h2.codec.framed_write 13:46:44] send frame=WindowUpdate { stream_id: StreamId(0), size_increment: 12517377 }
+[DEBUG hyper_util.client.legacy.pool 13:46:44] pooling idle connection for ("https", search.yahoo.com)
+[DEBUG h2.codec.framed_write 13:46:44] send frame=Headers { stream_id: StreamId(3), flags: (0x25: END_HEADERS | END_STREAM | PRIORITY), stream_dep: StreamDependency { dependency_id: StreamId(0), weight: 41, is_exclusive: false } }
+[DEBUG h2.codec.framed_write 13:46:44] send frame=WindowUpdate { stream_id: StreamId(3), size_increment: 12451840 }
+[DEBUG h2.hpack.decoder 13:46:44] Decoder changed max table size from=0 to=4096
+[DEBUG h2.codec.framed_read 13:46:44] received frame=Headers { stream_id: StreamId(3), flags: (0x4: END_HEADERS) }
+[DEBUG cookie_store.cookie_store 13:46:44] inserting secure cookie 'grokipedia-affinity'
+[DEBUG cookie_store.cookie_store 13:46:44] inserting secure cookie '__cf_bm'
+[DEBUG h2.codec.framed_read 13:46:44] received frame=Data { stream_id: StreamId(3) }
+[DEBUG h2.codec.framed_read 13:46:44] received frame=Data { stream_id: StreamId(3), flags: (0x1: END_STREAM) }
+[DEBUG h2.codec.framed_read 13:46:44] received frame=Settings { flags: (0x0), max_concurrent_streams: 100, max_header_list_size: 131072 }
+[DEBUG h2.codec.framed_write 13:46:44] send frame=Settings { flags: (0x1: ACK) }
+[DEBUG h2.frame.settings 13:46:44] encoding SETTINGS; len=0, order=SettingsOrder { ids: [HeaderTableSize, EnablePush, MaxConcurrentStreams, InitialWindowSize, MaxFrameSize, MaxHeaderListSize, EnableConnectProtocol, NoRfc7540Priorities] }, header_table_size=None, enable_push=None, initial_window_size=None, max_frame_size=None, max_header_list_size=None
+[DEBUG h2.codec.framed_read 13:46:44] received frame=Settings { flags: (0x1: ACK) }
+[DEBUG h2.proto.settings 13:46:44] received settings ACK; applying Settings { flags: (0x0), header_table_size: 65536, enable_push: 0, initial_window_size: 131072, max_frame_size: 16384 }
+[DEBUG h2.hpack.decoder 13:46:44] Decoder changed max table size from=0 to=65536
+[DEBUG h2.codec.framed_read 13:46:44] received frame=Headers { stream_id: StreamId(3), flags: (0x4: END_HEADERS) }
+[DEBUG h2.codec.framed_read 13:46:44] received frame=Data { stream_id: StreamId(3) }
+[DEBUG h2.codec.framed_read 13:46:44] received frame=Data { stream_id: StreamId(3) }
+[DEBUG cookie_store.cookie_store 13:46:44] inserting secure cookie 'lkl'
+[DEBUG cookie_store.cookie_store 13:46:44] inserting secure cookie 'YBV'
+[DEBUG cookie_store.cookie_store 13:46:44] inserting secure cookie 'A1'
+[DEBUG cookie_store.cookie_store 13:46:44] inserting secure cookie 'A3'
+[DEBUG cookie_store.cookie_store 13:46:44] inserting secure cookie 'A1S'
+[DEBUG h2.codec.framed_read 13:46:44] received frame=Data { stream_id: StreamId(3) }
+[DEBUG h2.codec.framed_read 13:46:44] received frame=Data { stream_id: StreamId(3) }
+[DEBUG h2.codec.framed_read 13:46:44] received frame=Data { stream_id: StreamId(3) }
+[DEBUG h2.codec.framed_read 13:46:44] received frame=Data { stream_id: StreamId(3) }
+[DEBUG h2.codec.framed_read 13:46:44] received frame=Data { stream_id: StreamId(3), flags: (0x1: END_STREAM) }
+[DEBUG httpcore.http11 13:46:44] send_request_headers.started request=<Request [b'POST']>
+[DEBUG httpcore.http11 13:46:44] send_request_headers.complete
+[DEBUG httpcore.http11 13:46:44] send_request_body.started request=<Request [b'POST']>
+[DEBUG httpcore.http11 13:46:44] send_request_body.complete
+[DEBUG httpcore.http11 13:46:44] receive_response_headers.started request=<Request [b'POST']>
+[DEBUG httpcore.http11 13:46:53] receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'X-Gemini-Service-Tier', b'standard'), (b'Content-Type', b'application/json; charset=UTF-8'), (b'Vary', b'Origin'), (b'Vary', b'X-Origin'), (b'Vary', b'Referer'), (b'Content-Encoding', b'gzip'), (b'Date', b'Tue, 18 Aug 2026 20:46:53 GMT'), (b'Server', b'scaffolding on HTTPServer2'), (b'X-XSS-Protection', b'0'), (b'X-Frame-Options', b'SAMEORIGIN'), (b'X-Content-Type-Options', b'nosniff'), (b'Server-Timing', b'gfet4t7; dur=8364'), (b'Alt-Svc', b'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000'), (b'Transfer-Encoding', b'chunked')])
+[DEBUG httpcore.http11 13:46:53] receive_response_body.started request=<Request [b'POST']>
+[DEBUG httpcore.http11 13:46:53] receive_response_body.complete
+[DEBUG httpcore.http11 13:46:53] response_closed.started
+[DEBUG httpcore.http11 13:46:53] response_closed.complete
+[DEBUG src.agents.agents 13:46:53] Agent answered: The 2023 Monaco Grand Prix was won by **Max Verstappen**, driving for Red Bull Racing. Fernando Alonso finished second for Aston Martin, and Esteban Ocon finished third for Alpine.
+[DEBUG httpcore.connection 13:46:53] close.started
+[DEBUG httpcore.connection 13:46:53] close.complete
+[DEBUG src.agents.agents 13:47:59] User asked: Who won the 2023 Monaco Grand Prix?
+[DEBUG src.agents.agents 13:48:02] Agent answered: The 2023 Monaco Grand Prix was won by **Max Verstappen**, driving for Red Bull Racing. Fernando Alonso finished second, and Esteban Ocon finished third.

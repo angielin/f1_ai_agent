@@ -6,7 +6,8 @@ LOGGING_CONFIG = {
     "version" : 1,
     "formatters": {
         "simple": {
-            "fmt": "[{levelname} {name} {asctime}] {message}", # this is not working
+            "format": "[{levelname} {name} {asctime}] {message}",
+            "style": "{",
             "datefmt": "%H:%M:%S",
         }
     },
@@ -19,17 +20,22 @@ LOGGING_CONFIG = {
         },
         "file": {
             "class": "logging.handlers.RotatingFileHandler",
-            "level": "INFO",
+            "level": "DEBUG",
             "formatter": "simple",
             "filename": os.path.join(path_to_outputlog,"output.log"),
         },
     },
     "loggers": {
-        "": {"hanlders": ["stdout", "file"], "level": "DEBUG", "propagate": False},
+        "": {"handlers": ["stdout", "file"], "level": "INFO", "propagate": False},
         "__main__": {
             "handlers": ["stdout", "file"],
             "level": "INFO",
             "propagate": False,
         },
+        "src.agents": {"level": "DEBUG"},
+        # ddgs logs "Error in engine ..." at INFO for every search backend
+        # it tries and fails over from - noisy even at the default level.
+        "ddgs": {"level": "WARNING"},
+        "primp": {"level": "WARNING"},
     },
 }

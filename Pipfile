@@ -6,10 +6,12 @@ name = "pypi"
 [packages]
 langchain = "*"
 langchain-community = "*"
-duckduckgo-search = "*"
+langchain-google-genai = "*"
+ddgs = "*"
 wikipedia = "*"
+python-dotenv = "*"
 
 [dev-packages]
 
 [requires]
-python_version = "3.9"
+python_version = "3.11"
